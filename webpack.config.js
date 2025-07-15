@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/'
+    publicPath: process.env.NODE_ENV === 'production' ? '/github-repositories-explorer/' : '/'
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js']

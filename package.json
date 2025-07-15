@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "webpack --mode production",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "start": "webpack serve --mode development --open"
   },
-  "keywords": ["react", "typescript", "github", "api"],
+  "keywords": [
+    "react",
+    "typescript",
+    "github",
+    "api"
+  ],
   "author": "",
   "license": "MIT",
   "homepage": "https://0xsifu.github.io/github-repositories-explorer",
@@ -28,6 +33,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@types/jest": "^29.5.0",
+    "cross-env": "^7.0.3",
     "css-loader": "^6.7.3",
     "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",

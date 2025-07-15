@@ -12,7 +12,7 @@ A React application that allows users to search for GitHub users and explore the
 
 ## Demo
 
-You can access the live demo of the application at: [GitHub Repositories Explorer](https://yourusername.github.io/github-repositories-explorer)
+You can access the live demo of the application at: [GitHub Repositories Explorer](https://0xsifu.github.io/github-repositories-explorer)
 
 ## Technologies Used
 
